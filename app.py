@@ -25,7 +25,7 @@ elif language_choice == "chinese":
 elif language_choice == "japanese":
     languages = "japanese"
 I_choose_you(languages)
-    
+
 # Develop a function that creates a new list of pokemon based on the type the user searched for. If no pokemon was found of that type inform the user
 
 #Develop a function to find all pokemon matching the name the user searched for. Ex. if "Char" return Charmander, Charmeleon and Charizard. Make the user aware if no pokemon was found. 
