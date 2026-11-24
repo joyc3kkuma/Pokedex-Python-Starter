@@ -13,7 +13,6 @@ def I_choose_you(language_choice):
             print(pokemon["name"][language_choice])
 
 # Add a language choice feature and print the pokemons name based on the user input
-
 def languages():
     for language in data:
         print("english, chinese, or japanese?: ")
@@ -26,7 +25,14 @@ elif language_choice == "japanese":
     languages = "japanese"
 I_choose_you(languages)
 
+
 # Develop a function that creates a new list of pokemon based on the type the user searched for. If no pokemon was found of that type inform the user
+
+def poke_type():
+    for type in data:
+        print("Choose your pokemon: ")
+pokemon = input("Choose your pokemon: ")
+
 
 #Develop a function to find all pokemon matching the name the user searched for. Ex. if "Char" return Charmander, Charmeleon and Charizard. Make the user aware if no pokemon was found. 
 

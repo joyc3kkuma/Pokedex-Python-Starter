@@ -5,37 +5,10 @@ pokedex = open("./pokedex.json", encoding="utf8")
 data = json.load(pokedex)
 print(data[0])
 
-def I_choose_you(language_choice):
-    for pokemon in data:
-        if language_choice in pokemon["name"]:
-            print(pokemon["name"][language_choice])
+# Develop a function that creates a new list of pokemon based on the type the user searched for. If no pokemon was found of that type inform the user
 
-def ball():
-    for ball in data:
-        print("Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark, Fairy")
-pokemon_types = input("Normal, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark, Fairy")
-if pokemon_types == "Normal":
-    ball = "Normal"
-elif pokemon_types == "Fighting":
-    ball = "Fighting"
-elif pokemon_types == "Flying":
-    ball = "Flying"
-elif pokemon_types == "Poison":
-    ball = "Posion"
-elif pokemon_types == "Ground":
-    ball = "Ground"
-elif pokemon_types == "Rock":
-    ball = "Rock"
-elif pokemon_types == "Bug":
-    ball = "Bug"
-elif pokemon_types == "Ghost":
-    ball = "Ghost"
-elif pokemon_types == "Steel":
-    ball = "Steel"
-elif pokemon_types == "Fire":
-    ball = "Fire"
-elif pokemon_types == "Water":
-    ball = "Water"
-elif pokemon_types == "Grass":
-    ball = "Grass"
-I_choose_you(ball)
+pokemon_types = []
+
+for ball in data:
+        pokedex.append()
+pokemon_types = input("Pokemon! I choose:  ")
